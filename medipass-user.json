@@ -24,11 +24,10 @@
     "nonRevocationProof": "ex:nonRevocationProof",
 
     "user": {"@id": "schema:user", "@type": "rdf:HTML"},
-		"userId": "ex:userId",
-		"realName": "ex:realName",
-		"birth": "ex:birth",
-		"gender": "ex:gender",
-    "degree": "ex:degree",
+    "userId": "ex:userId",
+    "realName": "ex:realName",
+    "birth": "ex:birth",
+    "gender": "ex:gender",
     "referenceId": "ex:referenceId",
     "verifier": {"@id": "ex:verifier", "@type": "@id"}
   }]
