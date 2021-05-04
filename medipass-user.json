@@ -1,0 +1,35 @@
+{
+  "@context": [{
+    "@version": 1.1
+  },"https://www.w3.org/ns/odrl.jsonld", {
+    "ex": "https://example.org/examples#",
+    "schema": "http://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+
+    "3rdPartyCorrelation": "ex:3rdPartyCorrelation",
+    "AllVerifiers": "ex:AllVerifiers",
+    "Archival": "ex:Archival",
+    "CLCredentialDefinition2019": "ex:CLCredentialDefinition2019",
+    "CLSignature2019": "ex:CLSignature2019",
+    "IssuerPolicy": "ex:IssuerPolicy",
+    "HolderPolicy": "ex:HolderPolicy",
+    "UserCredential": "ex:UserCredential",
+    "ZkpExampleSchema2018": "ex:ZkpExampleSchema2018",
+
+    "issuerData": "ex:issuerData",
+    "attributes": "ex:attributes",
+    "signature": "ex:signature",
+    "signatureCorrectnessProof": "ex:signatureCorrectnessProof",
+    "primaryProof": "ex:primaryProof",
+    "nonRevocationProof": "ex:nonRevocationProof",
+
+    "user": {"@id": "schema:user", "@type": "rdf:HTML"},
+		"userId": "ex:userId",
+		"realName": "ex:realName",
+		"birth": "ex:birth",
+		"gender": "ex:gender",
+    "degree": "ex:degree",
+    "referenceId": "ex:referenceId",
+    "verifier": {"@id": "ex:verifier", "@type": "@id"}
+  }]
+}
