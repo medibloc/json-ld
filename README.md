@@ -1,2 +1,3 @@
-# verifiable-credentials
-Verifiable Credential Context Registry
+# JSON-LD Schema Registry
+
+published as https://jsonld.medibloc.org
